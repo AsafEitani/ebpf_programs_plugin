@@ -17,6 +17,8 @@
 
 ## Abstract <!-- TOC --><a name="abstract"></a>
 > eBPF is a revolutionary technology with origins in the Linux kernel that can run sandboxed programs in an operating system kernel. It is used to safely and efficiently extend the capabilities of the kernel without requiring to change kernel source code or load kernel modules.
+
+
 The objective of this project is to create a Volatility 3 plugin for eBPF program detection. Further more, this is a direct continuation of the 2022 submission <a href="https://github.com/AsafEitani/rootkit_plugins/tree/main">Rootkit Plugins</a>, by adding a way of eBPF rootkit detection.
 This plugin complete the suite of rootkit detection by supporting the latest type of rootkits.
 
