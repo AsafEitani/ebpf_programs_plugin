@@ -34,3 +34,9 @@ pip3 install volatility3 capstone
 ### ⚙ Installation
 
 Copy the `ebpf_programs.py` file to your Volatility 3 directory under `volatility3/volatility3/framework/plugins/linux`.
+
+
+### Usage
+
+`python3 ./vol.py -f <image> linux.ebpf_programs --name=<optional sprcific name> --dump`
+A `name` and `dump` flags can be used to filter by name or dump the program binary(after JIT) to disk.
