@@ -49,9 +49,7 @@ The eBPF helpers used to modify the system behavior are as follows:
 
 The plugin determines if any eBPF program is using any of those helpers by disassembling the eBPF function after JIT.
 The plugin is also able to dump the eBPF function as binary for further investigation using the `dump` flag.
-For each eBPF program the following information is displayed:('Name', str), ('Full Name', str), ('Type', str), ('Jited Bytes Length', int),
-                                   ('Load Time', datetime), ("Used Helpers", str),
-                                   ("Rootkit Behavior", bool), ("Dumped Filename", str)
+For each eBPF program the following information is displayed:
 - `Name` - The name of the eBPF program.
 - `Full Name` - The full name of the eBPF program, including a prefix and the program tag.
 - `Type` - The eBPF program type according to <a href="https://elixir.bootlin.com/linux/v5.15/source/include/uapi/linux/bpf.h#L919">the Linux kernel</a>
